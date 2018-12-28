@@ -1,6 +1,6 @@
-cc_inc_library(
+cc_library(
   name = "websocketpp",
   hdrs = glob(["websocketpp/**/*.hpp"]),
-  prefix = "websocketpp",
+  include_prefix = "websocketpp",
   visibility = ["//visibility:public"],
 )
